@@ -14,20 +14,22 @@ public class TodoService : ITodoService
         _connection = connection;
     }
     
-    public async Task CreateTodo(Todo todo)
+    public async Task<Todo> CreateTodo(Todo todo)
     {
         string sql = @"
-            INSERT INTO todoitems(id, name, description, rank, xp, gold, userId, createddate, duedate)
-            VALUES(@id, @name, @description, @rank, @xp, @gold, @userId, now(), @duedate);
+            INSERT INTO todoitems(name, description, rank, xp, gold, userId, createddate, duedate)
+            VALUES(@name, @description, @rank, @xp, @gold, @userId, now(), @duedate)
+            RETURNING *
         ";
 
         var parameters = new
         {
-            id = todo.Id, name = todo.Name, description = todo.Description, rank = todo.Rank, xp = todo.Xp,
-            gold = todo.Xp, userId = todo.UserId, duedate = todo.Duedate
+            name = todo.Name, description = todo.Description, rank = todo.Rank, xp = todo.Xp,
+            gold = todo.Gold, userId = todo.UserId, duedate = todo.Duedate
         };
 
-        await _connection.ExecuteAsync(sql, parameters);
+        Todo createdTodo = await _connection.QueryFirstOrDefaultAsync<Todo>(sql, parameters);
+        return createdTodo;
     }
 
    

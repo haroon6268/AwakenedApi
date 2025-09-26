@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AwakenedApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1771121a4e77f9862e4e32e96d9cb46fe7d56fba")]
 [assembly: System.Reflection.AssemblyProductAttribute("AwakenedApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AwakenedApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

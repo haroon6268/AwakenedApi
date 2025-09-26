@@ -36,7 +36,7 @@ public static class TodoRouteExtensions
                 return Results.Problem(ex.Message);
             }
         });
-        group.MapPost("/", async (Todo todo, ITodoService todoService, HttpContext ctx) =>
+        group.MapPost("/", async (Todo todo, ITodoService todoService, HttpContext ctx, IAIService aiService) =>
         {
             try
             {
@@ -45,8 +45,9 @@ public static class TodoRouteExtensions
                 {
                     return Results.BadRequest("Invalid user id");
                 }
-                await todoService.CreateTodo(todo);
-                return Results.Ok();
+                Todo todoWithDetails = await aiService.GetQuestDetails(todo);
+                Todo createdTodo = await todoService.CreateTodo(todoWithDetails);
+                return Results.Ok(createdTodo);
             }
             catch (Exception ex)
             {
