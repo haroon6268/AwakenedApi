@@ -3902,31 +3902,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\halma\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/haroon/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\AwakenedApi.csproj",
+      "projectUniqueName": "/Users/haroon/Desktop/Awakened/AwakenedApi/AwakenedApi.csproj",
       "projectName": "AwakenedApi",
-      "projectPath": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\AwakenedApi.csproj",
-      "packagesPath": "C:\\Users\\halma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\obj\\",
+      "projectPath": "/Users/haroon/Desktop/Awakened/AwakenedApi/AwakenedApi.csproj",
+      "packagesPath": "/Users/haroon/.nuget/packages/",
+      "outputPath": "/Users/haroon/Desktop/Awakened/AwakenedApi/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\halma\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/haroon/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3944,8 +3937,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -3987,7 +3979,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.405/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

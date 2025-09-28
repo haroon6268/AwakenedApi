@@ -15,6 +15,7 @@ builder.Services.AddTransient(sp =>
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<UserAuthentication>();
 builder.Services.AddScoped<ITodoService, TodoService>();
+builder.Services.AddScoped<IShopItemService, ShopItemService>();
 builder.Services.AddSingleton<ChatClient>(sp =>
 {
     var apiKey = sp.GetRequiredService<IConfiguration>().GetValue<string>("OPEN_AI_KEY");
@@ -33,4 +34,5 @@ app.MapGet("/AITest", async (IAIService _aiService, ITodoService _todoService) =
 });
 app.MapUserRoutes();
 app.MapTodoRoutes();
+app.MapShopItemRoutes();
 app.Run();
