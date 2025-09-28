@@ -12,6 +12,7 @@ builder.Services.AddTransient(sp =>
     var connectionString = config.GetValue<string>("ConnectionString");
     return new NpgsqlConnection(connectionString);
 });
+builder.Services.AddHealthChecks();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<UserAuthentication>();
 builder.Services.AddScoped<ITodoService, TodoService>();
