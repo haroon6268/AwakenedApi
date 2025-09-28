@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8F54AF30-421F-4DBC-B3F5-FDEE2D926DA0}|AwakenedApi.csproj|c:\\users\\halma\\desktop\\web\\awakened\\awakenedapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F54AF30-421F-4DBC-B3F5-FDEE2D926DA0}|AwakenedApi.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F54AF30-421F-4DBC-B3F5-FDEE2D926DA0}|AwakenedApi.csproj|c:\\users\\halma\\desktop\\web\\awakened\\awakenedapi\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F54AF30-421F-4DBC-B3F5-FDEE2D926DA0}|AwakenedApi.csproj|solutionrelative:services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F54AF30-421F-4DBC-B3F5-FDEE2D926DA0}|AwakenedApi.csproj|c:\\users\\halma\\desktop\\web\\awakened\\awakenedapi\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F54AF30-421F-4DBC-B3F5-FDEE2D926DA0}|AwakenedApi.csproj|solutionrelative:services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8F54AF30-421F-4DBC-B3F5-FDEE2D926DA0}|AwakenedApi.csproj|c:\\users\\halma\\desktop\\web\\awakened\\awakenedapi\\extensions\\mapuserroutes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F54AF30-421F-4DBC-B3F5-FDEE2D926DA0}|AwakenedApi.csproj|solutionrelative:extensions\\mapuserroutes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -12,10 +24,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8F54AF30-421F-4DBC-B3F5-FDEE2D926DA0}|AwakenedApi.csproj|c:\\users\\halma\\desktop\\web\\awakened\\awakenedapi\\services\\aiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F54AF30-421F-4DBC-B3F5-FDEE2D926DA0}|AwakenedApi.csproj|solutionrelative:services\\aiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F54AF30-421F-4DBC-B3F5-FDEE2D926DA0}|AwakenedApi.csproj|c:\\users\\halma\\desktop\\web\\awakened\\awakenedapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F54AF30-421F-4DBC-B3F5-FDEE2D926DA0}|AwakenedApi.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F54AF30-421F-4DBC-B3F5-FDEE2D926DA0}|AwakenedApi.csproj|c:\\users\\halma\\desktop\\web\\awakened\\awakenedapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,20 +38,12 @@
       "RelativeMoniker": "D:0:0:{8F54AF30-421F-4DBC-B3F5-FDEE2D926DA0}|AwakenedApi.csproj|solutionrelative:services\\interfaces\\iaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F54AF30-421F-4DBC-B3F5-FDEE2D926DA0}|AwakenedApi.csproj|c:\\users\\halma\\desktop\\web\\awakened\\awakenedapi\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F54AF30-421F-4DBC-B3F5-FDEE2D926DA0}|AwakenedApi.csproj|solutionrelative:services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8F54AF30-421F-4DBC-B3F5-FDEE2D926DA0}|AwakenedApi.csproj|c:\\users\\halma\\desktop\\web\\awakened\\awakenedapi\\extensions\\maptodoroutes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F54AF30-421F-4DBC-B3F5-FDEE2D926DA0}|AwakenedApi.csproj|solutionrelative:extensions\\maptodoroutes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F54AF30-421F-4DBC-B3F5-FDEE2D926DA0}|AwakenedApi.csproj|c:\\users\\halma\\desktop\\web\\awakened\\awakenedapi\\services\\interfaces\\itodoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F54AF30-421F-4DBC-B3F5-FDEE2D926DA0}|AwakenedApi.csproj|solutionrelative:services\\interfaces\\itodoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F54AF30-421F-4DBC-B3F5-FDEE2D926DA0}|AwakenedApi.csproj|c:\\users\\halma\\desktop\\web\\awakened\\awakenedapi\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F54AF30-421F-4DBC-B3F5-FDEE2D926DA0}|AwakenedApi.csproj|solutionrelative:services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F54AF30-421F-4DBC-B3F5-FDEE2D926DA0}|AwakenedApi.csproj|c:\\users\\halma\\desktop\\web\\awakened\\awakenedapi\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,24 +61,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MapUserRoutes.cs",
               "DocumentMoniker": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\extensions\\MapUserRoutes.cs",
               "RelativeDocumentMoniker": "extensions\\MapUserRoutes.cs",
               "ToolTip": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\extensions\\MapUserRoutes.cs",
               "RelativeToolTip": "extensions\\MapUserRoutes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-23T20:29:34.507Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserAuthentication.cs",
+              "DocumentMoniker": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\services\\UserAuthentication.cs",
+              "RelativeDocumentMoniker": "services\\UserAuthentication.cs",
+              "ToolTip": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\services\\UserAuthentication.cs",
+              "RelativeToolTip": "services\\UserAuthentication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T17:04:46.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\services\\UserService.cs",
+              "RelativeDocumentMoniker": "services\\UserService.cs",
+              "ToolTip": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\services\\UserService.cs",
+              "RelativeToolTip": "services\\UserService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T17:01:38.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T17:05:48.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TodoService.cs",
+              "DocumentMoniker": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\services\\TodoService.cs",
+              "RelativeDocumentMoniker": "services\\TodoService.cs",
+              "ToolTip": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\services\\TodoService.cs",
+              "RelativeToolTip": "services\\TodoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T17:04:44.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\halma\\AppData\\Roaming\\Microsoft\\UserSecrets\\5f162e69-348b-4362-829c-125ad166c424\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\5f162e69-348b-4362-829c-125ad166c424\\secrets.json",
+              "ToolTip": "C:\\Users\\halma\\AppData\\Roaming\\Microsoft\\UserSecrets\\5f162e69-348b-4362-829c-125ad166c424\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\5f162e69-348b-4362-829c-125ad166c424\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-05T05:06:32.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\services\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "services\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\services\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "services\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T17:04:43.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "IAIService.cs",
               "DocumentMoniker": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\services\\Interfaces\\IAIService.cs",
               "RelativeDocumentMoniker": "services\\Interfaces\\IAIService.cs",
@@ -91,67 +166,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "UserAuthentication.cs",
-              "DocumentMoniker": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\services\\UserAuthentication.cs",
-              "RelativeDocumentMoniker": "services\\UserAuthentication.cs",
-              "ToolTip": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\services\\UserAuthentication.cs",
-              "RelativeToolTip": "services\\UserAuthentication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T17:04:46.344Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\services\\UserService.cs",
-              "RelativeDocumentMoniker": "services\\UserService.cs",
-              "ToolTip": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\services\\UserService.cs",
-              "RelativeToolTip": "services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T17:01:38.857Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T17:05:48.611Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TodoService.cs",
-              "DocumentMoniker": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\services\\TodoService.cs",
-              "RelativeDocumentMoniker": "services\\TodoService.cs",
-              "ToolTip": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\services\\TodoService.cs",
-              "RelativeToolTip": "services\\TodoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T17:04:44.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "secrets.json",
-              "DocumentMoniker": "C:\\Users\\halma\\AppData\\Roaming\\Microsoft\\UserSecrets\\5f162e69-348b-4362-829c-125ad166c424\\secrets.json",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\5f162e69-348b-4362-829c-125ad166c424\\secrets.json",
-              "ToolTip": "C:\\Users\\halma\\AppData\\Roaming\\Microsoft\\UserSecrets\\5f162e69-348b-4362-829c-125ad166c424\\secrets.json",
-              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\5f162e69-348b-4362-829c-125ad166c424\\secrets.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-05T05:06:32.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "AIService.cs",
               "DocumentMoniker": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\services\\AIService.cs",
               "RelativeDocumentMoniker": "services\\AIService.cs",
@@ -159,12 +173,11 @@
               "RelativeToolTip": "services\\AIService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T17:03:56.468Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T17:03:56.468Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "MapTodoRoutes.cs",
               "DocumentMoniker": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\extensions\\MapTodoRoutes.cs",
               "RelativeDocumentMoniker": "extensions\\MapTodoRoutes.cs",
@@ -176,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ITodoService.cs",
               "DocumentMoniker": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\services\\Interfaces\\ITodoService.cs",
               "RelativeDocumentMoniker": "services\\Interfaces\\ITodoService.cs",
@@ -185,18 +198,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-16T17:04:42.43Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\services\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "services\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\services\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "services\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T17:04:43.039Z"
             },
             {
               "$type": "Document",

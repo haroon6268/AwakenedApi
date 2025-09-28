@@ -39,6 +39,31 @@ public class UserService : IUserService
         await _connection.ExecuteAsync(sql, parameters);
 
     }
+
+    public async Task<User> CreateUser(User user)
+    {
+        string sql = @"
+            INSERT INTO users(id, username, email, strength, speed, endurance, intelligence, charisma, gold, xp, createddate, firstname, lastname)
+            VALUES(@Id, @Username, @Email, @Strength, @Speed, @Endurance, @Intelligence, @Charisma, @Gold, @Xp, @Createdate, @Firstname, @Lastname)";
+        var parameters = new
+        {
+            Id = user.Id,
+            Username = user.Username,
+            Email = user.Email,
+            Strength = user.Strength ?? 0,
+            Speed = user.Speed ?? 0,
+            Endurance = user.Endurance ?? 0,
+            Intelligence = user.Intelligence ?? 0,
+            Charisma = user.Charisma ?? 0,
+            Gold = user.Gold ?? 0,
+            Xp = user.Xp ?? 0,
+            Createdate = DateTimeOffset.UtcNow,
+            Firstname = user.Firstname,
+            Lastname = user.Lastname
+        };
+        await _connection.ExecuteAsync(sql, parameters);
+        return user;
+    }
     
     
 }

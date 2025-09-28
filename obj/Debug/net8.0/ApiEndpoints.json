@@ -34,6 +34,22 @@
     ]
   },
   {
+    "ContainingType": "AwakenedApi.extensions.ShopItemRouteExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapShopItemRoutes\u003Eb__0_1",
+    "RelativePath": "api/shopitem/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "AwakenedApi.extensions.TodoRouteExtensions\u002B\u003C\u003Ec",
     "Method": "\u003CMapTodoRoutes\u003Eb__0_1",
     "RelativePath": "api/todo/",
@@ -132,6 +148,30 @@
       {
         "Type": "System.Void",
         "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AwakenedApi.extensions.UserRouteExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapUserRoutes\u003Eb__0_1",
+    "RelativePath": "api/user/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "AwakenedApi.models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AwakenedApi.models.User",
+        "MediaTypes": [
+          "application/json"
+        ],
         "StatusCode": 200
       }
     ]

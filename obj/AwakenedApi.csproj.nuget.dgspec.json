@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/haroon/Desktop/Awakened/AwakenedApi/AwakenedApi.csproj": {}
+    "C:\\Users\\halma\\desktop\\web\\awakened\\awakenedapi\\AwakenedApi.csproj": {}
   },
   "projects": {
-    "/Users/haroon/Desktop/Awakened/AwakenedApi/AwakenedApi.csproj": {
+    "C:\\Users\\halma\\desktop\\web\\awakened\\awakenedapi\\AwakenedApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/haroon/Desktop/Awakened/AwakenedApi/AwakenedApi.csproj",
+        "projectUniqueName": "C:\\Users\\halma\\desktop\\web\\awakened\\awakenedapi\\AwakenedApi.csproj",
         "projectName": "AwakenedApi",
-        "projectPath": "/Users/haroon/Desktop/Awakened/AwakenedApi/AwakenedApi.csproj",
-        "packagesPath": "/Users/haroon/.nuget/packages/",
-        "outputPath": "/Users/haroon/Desktop/Awakened/AwakenedApi/obj/",
+        "projectPath": "C:\\Users\\halma\\desktop\\web\\awakened\\awakenedapi\\AwakenedApi.csproj",
+        "packagesPath": "C:\\Users\\halma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\halma\\desktop\\web\\awakened\\awakenedapi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/haroon/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\halma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -79,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.405/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
