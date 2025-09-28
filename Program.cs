@@ -35,4 +35,5 @@ app.MapGet("/AITest", async (IAIService _aiService, ITodoService _todoService) =
 app.MapUserRoutes();
 app.MapTodoRoutes();
 app.MapShopItemRoutes();
+app.MapHealthChecks("/health");
 app.Run();
