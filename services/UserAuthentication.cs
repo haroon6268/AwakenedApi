@@ -16,7 +16,7 @@ public class UserAuthentication
     {
         var options = new AuthenticateRequestOptions(
             secretKey: ClerkSecret,
-            authorizedParties:["http://localhost:3000"]
+            authorizedParties:["http://localhost:3000", "https://awakened-frontend.vercel.app"]
         );
         var requestState = await AuthenticateRequest.AuthenticateRequestAsync(request.Request, options);
         if (!requestState.IsAuthenticated)
