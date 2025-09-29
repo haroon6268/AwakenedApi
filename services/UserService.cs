@@ -1,6 +1,7 @@
 using Npgsql;
 using AwakenedApi.models;
 using AwakenedApi.services.Interfaces;
+using AwakenedApi.util;
 using Dapper;
 
 namespace AwakenedApi.services;
@@ -29,15 +30,41 @@ public class UserService : IUserService
             await _connection.ExecuteAsync(sql);
     }
 
-    public async Task UpdateStats(Todo todo, string userId)
+    public async Task<UpdateStatsResponse> UpdateStats(Todo todo, string userId)
     {
-        int xp = todo.Xp ?? 0;
-        int gold = todo.Gold ?? 0;
+        int xpGained = todo.Xp ?? 0;
+        int goldGained = todo.Gold ?? 0;
 
+        // Get current user stats before update
+        User? currentUser = await GetUserById(userId);
+        if (currentUser == null)
+        {
+            throw new ArgumentException($"User with id {userId} not found");
+        }
+
+        int oldXp = currentUser.Xp ?? 0;
+        int oldGold = currentUser.Gold ?? 0;
+        int oldLevel = XpMethods.XpToLevel(oldXp);
+
+        // Update user stats
         string sql = "UPDATE users SET xp = xp + @xp, gold = gold + @gold WHERE id = @id";
-        var parameters = new {xp=xp,gold=gold,id=userId};
+        var parameters = new { xp = xpGained, gold = goldGained, id = userId };
         await _connection.ExecuteAsync(sql, parameters);
 
+        // Calculate new stats
+        int newXp = oldXp + xpGained;
+        int newGold = oldGold + goldGained;
+        int newLevel = XpMethods.XpToLevel(newXp);
+
+        // Check if user leveled up
+        bool hasLeveledUp = newLevel > oldLevel;
+
+        return new UpdateStatsResponse
+        {
+            HasLeveledUp = hasLeveledUp,
+            Gold = newGold,
+            Xp = newXp
+        };
     }
 
     public async Task<User> CreateUser(User user)

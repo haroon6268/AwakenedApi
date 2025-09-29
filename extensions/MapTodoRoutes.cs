@@ -88,13 +88,11 @@ public static class TodoRouteExtensions
 
                     todo.Complete = true;
                     await todoService.UpdateTodo(todo);
-                    await userService.UpdateStats(todo, userId);
-                    Console.WriteLine("here2");
-                    return Results.Ok(new IsSuccessResponse(){IsSuccess = true, Message = "Successfully Completed quest"});
+                    UpdateStatsResponse updateStatsResponse = await userService.UpdateStats(todo, userId);
+                    return Results.Ok(updateStatsResponse);
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine("here");
                     return Results.Problem(ex.Message);
                 }
             });
