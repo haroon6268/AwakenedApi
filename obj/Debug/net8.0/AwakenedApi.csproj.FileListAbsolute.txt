@@ -111,7 +111,6 @@ C:/users/halma/desktop/web/awakened/awakenedapi/obj/Debug/net8.0/refint/Awakened
 C:/users/halma/desktop/web/awakened/awakenedapi/obj/Debug/net8.0/AwakenedApi.pdb
 C:/users/halma/desktop/web/awakened/awakenedapi/obj/Debug/net8.0/AwakenedApi.genruntimeconfig.cache
 C:/users/halma/desktop/web/awakened/awakenedapi/obj/Debug/net8.0/ref/AwakenedApi.dll
-C:/Users/halma/Desktop/web/awakened/AwakenedApi/obj/Debug/net8.0/staticwebassets.upToDateCheck.txt
 C:/Users/halma/Desktop/web/awakened/AwakenedApi/bin/Debug/net8.0/OpenAI.dll
 C:/Users/halma/Desktop/web/awakened/AwakenedApi/bin/Debug/net8.0/System.ClientModel.dll
 C:/Users/halma/Desktop/web/awakened/AwakenedApi/bin/Debug/net8.0/System.Memory.Data.dll
@@ -174,7 +173,6 @@ C:\Users\halma\Desktop\web\awakened\AwakenedApi\obj\Debug\net8.0\staticwebassets
 C:\Users\halma\Desktop\web\awakened\AwakenedApi\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\halma\Desktop\web\awakened\AwakenedApi\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\halma\Desktop\web\awakened\AwakenedApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\halma\Desktop\web\awakened\AwakenedApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\halma\Desktop\web\awakened\AwakenedApi\obj\Debug\net8.0\Awakened.0F35F958.Up2Date
 C:\Users\halma\Desktop\web\awakened\AwakenedApi\obj\Debug\net8.0\AwakenedApi.dll
 C:\Users\halma\Desktop\web\awakened\AwakenedApi\obj\Debug\net8.0\refint\AwakenedApi.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IiqQuKn0/0M=",
+  "dgSpecHash": "Ikj2cGzlRNU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\AwakenedApi.csproj",
+  "projectFilePath": "C:\\users\\halma\\desktop\\web\\awakened\\awakenedapi\\AwakenedApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\halma\\.nuget\\packages\\clerk.backendapi\\0.11.2\\clerk.backendapi.0.11.2.nupkg.sha512",
     "C:\\Users\\halma\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\AwakenedApi.csproj": {}
+    "C:\\users\\halma\\desktop\\web\\awakened\\awakenedapi\\AwakenedApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\AwakenedApi.csproj": {
+    "C:\\users\\halma\\desktop\\web\\awakened\\awakenedapi\\AwakenedApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\AwakenedApi.csproj",
+        "projectUniqueName": "C:\\users\\halma\\desktop\\web\\awakened\\awakenedapi\\AwakenedApi.csproj",
         "projectName": "AwakenedApi",
-        "projectPath": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\AwakenedApi.csproj",
+        "projectPath": "C:\\users\\halma\\desktop\\web\\awakened\\awakenedapi\\AwakenedApi.csproj",
         "packagesPath": "C:\\Users\\halma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\halma\\Desktop\\web\\awakened\\AwakenedApi\\obj\\",
+        "outputPath": "C:\\users\\halma\\desktop\\web\\awakened\\awakenedapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
